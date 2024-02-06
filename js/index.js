@@ -8,8 +8,8 @@
       closeB = $('close'),
       timer = null;
   var audio1 = new Audio("hbd.mp3");
-      //audio1.volume = 1;
-      //audio1.play();
+      audio1.volume = 1;
+      audio1.play();
   
   console.log('wat', card);
   openB.addEventListener('click', function () {
