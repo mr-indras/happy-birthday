@@ -3,7 +3,7 @@
     return document.getElementById(id);
   }
 
-  var audio1 = new Audio("hbd.mpeg");
+  var audio1 = new Audio("hbd.mp3");
       audio1.volume = 1;
       audio1.play(); 
   
