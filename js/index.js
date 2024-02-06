@@ -2,6 +2,8 @@
   function $(id) {
     return document.getElementById(id);
   }
+
+  $('song').play();
   
   var card = $('card'),
       openB = $('open'),
@@ -25,7 +27,5 @@
       timer = null;
     }, 1000);
   });
-
-  document.querySelector('.song').play();
 
 }());
