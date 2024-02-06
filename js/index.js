@@ -13,7 +13,8 @@
   
   console.log('wat', card);
   openB.addEventListener('click', function () {
-      
+      audio1.volume = 1;
+      audio1.play();
     
     card.setAttribute('class', 'open-half');
     if (timer) clearTimeout(timer);
