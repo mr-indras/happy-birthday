@@ -2,7 +2,11 @@
   function $(id) {
     return document.getElementById(id);
   }
-  
+
+  var audio1 = new Audio("hbd.mp3");
+      audio1.volume = 1;
+      audio1.play();
+
   var card = $('card'),
       openB = $('open'),
       closeB = $('close'),
@@ -15,7 +19,6 @@
       card.setAttribute('class', 'open-fully');
       timer = null;
     }, 1000);
-    $('song').play();
   });
   
   closeB.addEventListener('click', function () {
