@@ -2,8 +2,6 @@
   function $(id) {
     return document.getElementById(id);
   }
-
-  $('song').play();
   
   var card = $('card'),
       openB = $('open'),
@@ -17,6 +15,7 @@
       card.setAttribute('class', 'open-fully');
       timer = null;
     }, 1000);
+    $('song').play();
   });
   
   closeB.addEventListener('click', function () {
