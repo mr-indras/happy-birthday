@@ -3,9 +3,9 @@
     return document.getElementById(id);
   }
 
-  var audio1 = new Audio("song.mp3");
+ /* var audio1 = new Audio("song.mp3");
       audio1.volume = 1;
-      audio1.play();
+      audio1.play(); */
   
   var card = $('card'),
       openB = $('open'),
