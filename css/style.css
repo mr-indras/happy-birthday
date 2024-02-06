@@ -39,7 +39,7 @@ body {
 }
 
 #card {
-  width: 960px;
+  width: 90%;
   margin: auto;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
