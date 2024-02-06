@@ -16,7 +16,7 @@
       timer = null;
     }, 1000);
   });
-
+  
   closeB.addEventListener('click', function () {
     card.setAttribute('class', 'close-half');
     if (timer) clearTimerout(timer);
@@ -25,5 +25,7 @@
       timer = null;
     }, 1000);
   });
+
+  document.querySelector('.song').play();
 
 }());
